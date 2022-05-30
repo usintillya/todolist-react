@@ -1,0 +1,16 @@
+button {
+    background-color:blueviolet; /* Green */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 0px 20px;
+    text-align: center;
+    width: 147px;
+    height: 20px;
+}
+button:hover {
+    background-color: rgb(175, 107, 243);
+}
+div {
+    text-align: center;
+}
