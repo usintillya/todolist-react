@@ -1,0 +1,26 @@
+.myBtn {
+    background-color:blueviolet;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 0px 20px;
+    text-align: center;
+    width: 147px;
+    height: 20px;
+}
+.myBtn-sub {
+    background-color:forestgreen;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 0px 20px;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+}
+.myBtn:hover {
+    background-color: rgb(175, 107, 243);
+}
+.myBtn-sub:hover {
+    background-color:rgb(48, 172, 48);
+}

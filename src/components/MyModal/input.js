@@ -1,4 +1,5 @@
 import React from "react";
+import myButton from "../myButton/myButton";
 import "./input.css";
 
 const MyModal = ({ active, setActive }) => {
@@ -10,16 +11,19 @@ const MyModal = ({ active, setActive }) => {
       <div className="modal_content" onClick={(e) => e.stopPropagation()}>
         <div>
           <h3>your todo</h3>
-          <input placeholder="your todo"></input>
+          <input className="myInp" placeholder="your todo"></input>
         </div>
         <div>
           <h3>select priority</h3>
-          <select>
+          <select className="mySelect">
             <option disabled>select priority</option>
-            <option>high</option>
-            <option>middle</option>
-            <option>easy</option>
+            <option className="mySelect_high">high</option>
+            <option className="mySelect_middle">middle</option>
+            <option className="mySelect_easy">easy</option>
           </select>
+        </div>
+        <div className="btn-grid">
+          <myButton className="myBtn-sub">add</myButton>
         </div>
       </div>
     </div>

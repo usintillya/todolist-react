@@ -13,19 +13,40 @@
     transform: scale(1);
 }
 .modal_content {
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "."
+      "."
+      "."; 
     background-color: white;
-    width: 600px;
-    height: 400px;
+    width: 500px;
+    height: 250px;
     border-radius: 10px;
     border: 2px solid blueviolet;
 }
-input {
+.btn-grid {
+    margin-top: 30px;
+}
+.myInp {
     width: 418px;
-    height: 40px;
+    height: 15px;
     border-radius: 10px;
 }
-select {
+.mySelect {
     width: 426px;
-    height: 40px;
+    height: 20px;
     border-radius: 10px;
+}
+.mySelect_high {
+    color: brown;
+}
+.mySelect_middle {
+    color:goldenrod;
+}
+.mySelect_easy {
+    color:rgb(115, 214, 95);
 }
